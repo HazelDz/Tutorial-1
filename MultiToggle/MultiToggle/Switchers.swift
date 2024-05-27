@@ -19,17 +19,17 @@ struct Switchers: View {
     var body: some View {
         Form {
                     Toggle(isOn: $mainSwitch, label: {
-                        return Text("Add all the extras?").bold()
+                        return Text("Add all the students").bold()
                     })
                     Spacer()
                     Toggle(isOn: $switch1, label: {
-                        return Text("Extra cheese")
+                        return Text("Hazel")
                     })
                     Toggle(isOn: $switch2, label: {
-                        return Text("Pepperoni")
+                        return Text("Marve")
                     })
                     Toggle(isOn: $switch3, label: {
-                        return Text("Ham")
+                        return Text("Mike")
                     })
                 }
             }
